@@ -1,0 +1,82 @@
+/* authentication.css */
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3C2D57; /* Dark Purple */
+}
+
+/* Authentication Container */
+#auth-container {
+    background-color: #3C2D57; /* Dark Purple */
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Authentication Heading */
+#auth-heading {
+    color: #694786; /* Light Purple */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    color: #A486B0; /* Light Lavender */
+    font-size: 1rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #694786; /* Light Purple */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #1A1347; /* Darker Purple */
+    color: #F1B7EA; /* Light Pink */
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #5D479A; /* Medium Purple */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.submit-button:hover {
+    background-color: #694786; /* Light Purple */
+}
+
+/* Switch Button */
+.switch-button {
+    background-color: #A486B0; /* Light Lavender */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.switch-button:hover {
+    background-color: #694786; /* Light Purple */
+}
