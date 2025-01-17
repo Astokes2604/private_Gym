@@ -1,0 +1,131 @@
+/* App.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3c2d57; /* Dark purple background */
+    color: #f1b7ea; /* Light lavender text */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #f1b7ea; /* Light lavender for headers */
+}
+
+a {
+    text-decoration: none;
+    color: #694786; /* Purple color for links */
+}
+
+a:hover {
+    color: #a486b0; /* Light purple on hover */
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #694786; /* Purple button background */
+    color: #f1b7ea; /* Light lavender text */
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: #5d479a; /* Slightly darker purple on hover */
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav#nav {
+    background-color: #5d479a; /* Purple navbar */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav#nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav#nav li {
+    margin: 0 20px;
+}
+
+nav#nav a {
+    color: #f1b7ea; /* Light lavender text for navbar links */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav#nav a:hover {
+    color: #a486b0; /* Light purple for hover */
+}
+
+/* Auth Button */
+button.auth {
+    background-color: #a486b0; /* Light purple for logout button */
+    color: #f1b7ea; /* Light lavender text */
+}
+
+button.auth:hover {
+    background-color: #3c2d57; /* Darker purple on hover */
+}
+
+/* Title Styles */
+h1#stokes {
+    font-size: 48px;
+    text-align: center;
+    color: #f1b7ea; /* Light lavender text */
+    margin-top: 50px;
+}
+
+/* Info Section */
+#info-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.info-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #3c2d57; /* Dark purple */
+    margin-bottom: 10px;
+    color: #f1b7ea; /* Light lavender text */
+}
+
+.info-section h4 {
+    font-size: 1.5em;
+    color: #694786; /* Purple for section headers */
+    margin-bottom: 10px;
+}
+
+.info-section p {
+    font-size: 1.1em;
+}
+
+/* Divider between sections */
+hr {
+    border: none;
+    border-top: 2px solid #694786; /* Purple divider */
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #5d479a; /* Purple footer */
+    padding: 20px;
+    color: #f1b7ea; /* Light lavender text */
+    text-align: center;
+}

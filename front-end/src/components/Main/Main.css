@@ -1,0 +1,158 @@
+/* Main.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1347; /* Dark color background */
+    color: #f1b7ea; /* Light lavender text */
+}
+
+/* Navbar */
+#nav {
+    background-color: #694786; /* Purple/navy color */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#nav a, .auth {
+    color: #f1b7ea; /* Light lavender for links */
+    text-decoration: none;
+}
+
+.auth {
+    background-color: #5d479a; /* Purple button */
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.auth:hover {
+    background-color: #3c2d57; /* Darker purple on hover */
+}
+
+/* Page Title */
+#stokes {
+    text-align: center;
+    color: #f1b7ea; /* Light lavender text */
+    margin-top: 50px;
+    font-size: 2.5em;
+}
+
+/* Info Section */
+#info-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.info-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #3c2d57; /* Dark purple */
+    margin-bottom: 10px;
+    color: #f1b7ea; /* Light lavender text */
+}
+
+.info-section h4 {
+    font-size: 1.5em;
+    color: #694786; /* Purple for section headers */
+    margin-bottom: 10px;
+}
+
+.info-section p {
+    font-size: 1.1em;
+}
+
+/* Divider between sections */
+hr {
+    border: none;
+    border-top: 2px solid #694786; /* Purple divider */
+    margin: 20px 0;
+}
+
+/* Description and Call to Action */
+#potential {
+    text-align: center;
+    color: #f1b7ea; /* Light lavender text */
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+#description {
+    text-align: center;
+    color: #f1b7ea; /* Light lavender text */
+    margin: 20px 15%;
+    font-size: 1.2em;
+}
+
+/* Catalog Styles */
+#catalog-title {
+    text-align: center;
+    color: #f1b7ea; /* Light lavender color */
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+#catalog-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.catalog-item {
+    width: 100%;
+    padding: 20px;
+    background-color: #5d479a; /* Purple background */
+    margin-bottom: 10px;
+    color: #f1b7ea; /* Light lavender text */
+}
+
+.catalog-item h3 {
+    font-size: 1.8em;
+    color: #f1b7ea; /* Light lavender color for titles */
+    margin-bottom: 10px;
+}
+
+.catalog-item p {
+    font-size: 1.2em;
+}
+
+/* About Us Styles */
+#aboutus-title {
+    text-align: center;
+    color: #f1b7ea; /* Light lavender color */
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+#aboutus-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.aboutus-item {
+    width: 100%;
+    padding: 20px;
+    background-color: #3c2d57; /* Dark purple for the sections */
+    margin-bottom: 10px;
+    color: #f1b7ea; /* Light lavender text */
+}
+
+.aboutus-item h3 {
+    font-size: 1.8em;
+    color: #f1b7ea; /* Light lavender color for titles */
+    margin-bottom: 10px;
+}
+
+.aboutus-item p {
+    font-size: 1.2em;
+}
